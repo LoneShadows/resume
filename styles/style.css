@@ -1,0 +1,500 @@
+body{
+    margin: 0;
+    min-width: 1450px;
+    font-family: Montserrat;
+    min-height: 500px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.wrapper{
+    display: flex;
+    height: 91px;
+    background-color: snow;
+    white-space: nowrap;
+}
+.wrapper nav{
+    display: flex;
+    gap: 20px;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+.wrapper p{
+    margin-top: 27.5px;
+}
+
+.wrapper ul{
+    display: flex;
+    gap: 34px;
+    margin-left: 600px;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.wrapper a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.wrapper a:hover{
+    color: blue;
+}
+
+.introduction{
+    display: flex;
+    margin-top: -1px;
+}
+
+.userpic{
+    width: 40%;
+    display: block;
+    background-color: var(--bg-color);
+    --bg-color: rgb(var(--color_1));
+    --color_1: 230,218,206;
+    height: 600px;
+    padding: 100px;
+}
+
+.box-item{
+    list-style-type: none;
+    box-shadow: var(--shd, -10px 12px rgba(0,0,0,.3));
+    border-radius: 0px 0px 4px 4px;
+    width: 380px;
+    height: 600px;
+    background: whitesmoke;
+    margin-left: 350px;
+}
+ 
+.box-item img{
+    margin-left: 61px;
+    margin-top: 22px;
+    border-radius: 200px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.box h3{
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.box p{    
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.10em;
+    color: var(--secondary-color);
+    margin-bottom: 16px;
+    margin-top: 60px;
+}
+
+.box ul{
+    margin-top: 96px;
+    background: azure;
+    display: flex;
+}
+
+.box li{
+    margin-bottom: 14px;
+}
+
+.sidebar-info{
+    width: 60%;
+    margin-left: 40px;
+    display: block;
+    padding: 60px;
+    margin-top: 30px;
+}
+
+.sidebar-info h1{
+    font-size: 50px;
+}
+
+.sidebar-info h3{
+    font-size: 30px;
+}
+
+.sidebar-info ul{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.sidebar-info button{
+    border-radius: 40px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
+
+.sidebar-info button:hover{
+    border-color: blue;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.footer{
+   display: flex;
+}
+
+.container{
+    height: 90px;
+    padding: 20px;
+    width: 30%;
+}
+
+.container ul{
+    margin-top: 30px;
+}
+
+.container li a{
+    text-decoration: none;
+}
+
+
+.social-two{
+    width: 70%;
+}
+
+.social-two ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 3px;
+    margin-left: 590px;
+}
+
+.social-two h4{
+    text-align: center;
+}
+
+.social-two a{
+    text-decoration: none;
+    color: black;
+}
+
+.social-two a:hover{
+    color: blue;
+}
+
+.resume-div{
+    background-color: turquoise;
+    height: 2150px;
+    margin-top: -22px;
+    background-color: var(--bg-color);
+    --bg-color: rgb(var(--color_1));
+    --color_1: 230,218,206;
+}
+
+.resume-div a{
+    padding: 8px;
+}
+
+.resume-div button {
+    margin-top: 14px;
+    border-radius: 40px;
+    width: 170px;
+    height: 43px;
+    font-size: 17px;
+    background: blue;
+    color: white;
+    border-color: blue;
+    transition: background 0.5s ease;
+}
+
+
+.resume-div button:hover{
+    color: black;
+    background: lightyellow;
+    border-color: blue;
+    
+}
+
+.resume-div h1{
+    text-align: center;
+    padding: 28px;
+}
+
+.downl{
+    display: flex;
+    gap: 300px;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.downl h2{
+    margin-left: -13px;
+}
+
+.resume-box{
+    list-style-type: none;
+    box-shadow: var(--shd, -10px 12px rgba(0,0,0,.3));
+    border-radius: 0px 0px 4px 4px;
+    width: 700px;
+    height: 350px;
+    background: whitesmoke;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.h2-education{
+    margin-left: 430px;
+    margin-bottom: 38px;
+}
+
+.list{
+    display: block;
+    padding: 20px;
+    margin: 5px;
+    white-space: nowrap;
+}
+
+.about-exp{
+    display: block;
+    padding: 20px;
+    margin-top: 110px;
+}
+
+.present{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: blue;
+    font-size: 25px;
+}
+
+.job{
+    margin-bottom: 10px;
+}
+
+.company{
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.comp{
+    font-size: 13px;
+}
+
+.p{
+    margin-bottom: 20px;
+}
+
+.skillset-box{
+   
+    box-shadow: var(--shd, -10px 12px rgba(0,0,0,.3));
+    border-radius: 0px 0px 4px 4px;
+    width: 700px;
+    height: 420px;
+    background: whitesmoke;
+    margin: 0 auto;
+    
+   
+}
+
+.skillset-box h2{
+    padding: 20px;
+}
+
+.skillset-box li{
+    margin-top: 8px;
+}
+
+
+.skillset{
+    list-style: square;
+}
+.lang{
+    list-style: square;
+}
+::marker{
+    color: blue;
+}
+
+
+.projects-div{
+   background-color: turquoise;
+   height: 800px;
+   margin-top: -22px;
+   background-color: var(--bg-color);
+    --bg-color: rgb(var(--color_1));
+    --color_1: 230,218,206;
+}
+
+.projects-div h1{
+    text-align: center;
+    padding: 30px;
+
+}
+
+.about-projects{
+    text-align: center;
+    width: 666px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.projects-box{
+    box-shadow: var(--shd, -10px 12px rgba(0,0,0,.3));
+    border-radius: 0px 0px 4px 4px;
+    width: 700px;
+    height: 420px;
+    background: whitesmoke;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.projects-box img{
+    width: 370px;
+    height: 230px;
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.projects-box a{
+    width: 80px;
+    font-size: large;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.projects-box a:hover{
+    color: blue;
+}
+
+.contact-div{
+   background-color: var(--bg-color);
+    --bg-color: rgb(var(--color_1));
+    --color_1: 230,218,206;
+    margin-top: -30px;
+    height: 900px;
+}
+
+.contact-div h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 45px;
+}
+
+.contact-box{
+    box-shadow: var(--shd, -10px 12px rgba(0,0,0,.3));
+    border-radius: 0px 0px 4px 4px;
+    width: 679px;
+    height: 600px;
+    background: whitesmoke;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+
+input{
+    border: none;
+    border-bottom: 2px  solid  black;
+    background-color: transparent;
+    
+    color: inherit;
+    outline: none;
+}
+
+input:hover{
+    border-color: blue;
+    color: blue;
+}
+
+textarea{
+    height: 70px;
+    width: 630px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    resize: none;
+}
+
+.textar{
+    margin-left: 30px;
+    padding: 0;
+}
+
+textarea:hover{
+    color: blue;
+    border-color: blue;
+}
+
+.name li{
+    display: flex;
+    gap: 30px;
+}
+
+.name{
+    padding: 0;
+    margin: 0;
+}
+
+.names{
+    display: flex;
+    gap: 280px;
+
+}
+
+.first{
+    margin-left: 28px;
+}
+
+.text{
+    width: 300px;
+}
+
+.text-two{
+    width: 620px;
+    margin-bottom: 20px;
+}
+
+.email-subject{
+    padding: 0;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.button{
+    width: 110px;
+    border-radius: 50px;
+    height: 35px;
+    font-size: 15px;
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    margin-left: 30px;
+    transition: background 0.5s ease;
+}
+
+.button:hover{
+    color: black;
+    background-color: var(--bg-color);
+    
+}
