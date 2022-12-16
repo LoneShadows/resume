@@ -12,6 +12,7 @@ ul{
 .wrapper{
     display: flex;
     height: 91px;
+    gap: 643px;
     background-color: snow;
     white-space: nowrap;
 }
@@ -29,7 +30,6 @@ ul{
 .wrapper ul{
     display: flex;
     gap: 34px;
-    margin-left: 600px;
     padding: 20px;
     list-style-type: none;
 }
