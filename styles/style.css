@@ -12,7 +12,7 @@ ul{
 .wrapper{
     display: flex;
     height: 91px;
-    gap: 643px;
+    gap: 620px;
     background-color: snow;
     white-space: nowrap;
 }
